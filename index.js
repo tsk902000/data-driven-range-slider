@@ -4,6 +4,7 @@ class RangeSlider {
   constructor() {
     const attrs = {
       id: "ID" + Math.floor(Math.random() * 1000000),
+      container: null,
       svgWidth: 400,
       svgHeight: 400,
       marginTop: 10,
@@ -568,5 +569,13 @@ class RangeSlider {
   };
 }
 
- 
-exports.RangeSlider = RangeSlider;
+function rangeSlider() {
+  return new RangeSlider();
+}
+rangeSlider.RangeSlider = RangeSlider;
+// Allows for { fastify }
+rangeSlider.rangeSlider = rangeSlider;
+// Allows for strict ES Module support
+rangeSlider.default = rangeSlider;
+// Sets the default export
+module.exports = rangeSlider;
