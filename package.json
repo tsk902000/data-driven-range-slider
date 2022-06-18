@@ -1,6 +1,6 @@
 {
   "name": "range-slider-d3",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "d3.js based data driven range slider",
   "main": "index.js",
   "scripts": {

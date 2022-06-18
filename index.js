@@ -1,6 +1,6 @@
 d3 = window.d3||require('d3');
 
-export default class RangeSlider {
+class RangeSlider {
   constructor() {
     const attrs = {
       id: "ID" + Math.floor(Math.random() * 1000000),
@@ -569,4 +569,4 @@ export default class RangeSlider {
 }
 
  
-
+exports.RangeSlider = RangeSlider;
