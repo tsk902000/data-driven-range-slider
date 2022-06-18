@@ -1,3 +1,6 @@
+Upgrade to D3 v6 support
+
+Original:
 
 # Data driven range slider
 
@@ -26,6 +29,13 @@ Check out several libraries and frameworks integrations
 
 
 ### Installing
+Updated for D3 6 
+
+```
+npm i range-slider-d3
+```
+
+Original
 
 ```
 npm i data-driven-range-slider
