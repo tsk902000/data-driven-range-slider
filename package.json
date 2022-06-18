@@ -1,5 +1,5 @@
 {
-  "name": "data-driven-range-slider",
+  "name": "range-slider-d3",
   "version": "1.0.1",
   "description": "d3.js based data driven range slider",
   "main": "index.js",
@@ -8,10 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bumbeishvili/data-driven-range-slider.git"
+    "url": "git+https://github.com/tsk902000/range-slider-d3.git"
   },
   "keywords": [
     "d3",
+    "range-slider-d3",
     "range-slider",
     "time-range-slider",
     "data-driven-slider",
@@ -22,10 +23,10 @@
   "dependencies": {
     "d3": "*"
   },
-  "author": "David B.",
+  "author": "sk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bumbeishvili/data-driven-range-slider/issues"
+    "url": "https://github.com/tsk902000/range-slider-d3"
   },
-  "homepage": "https://github.com/bumbeishvili/data-driven-range-slider#readme"
+  "homepage": "https://github.com/tsk902000/range-slider-d3#readme"
 }
