@@ -22,7 +22,8 @@ class RangeSlider {
       yTicks: 4,
       freezeMin: false,
       startSelection: 100,
-      svg:null
+      svg:null,
+      hideXAxis: false
     };
 
 
@@ -324,6 +325,11 @@ class RangeSlider {
     if (isDate) {
       axis = d3.axisBottom(scaleTime);
     }
+
+    if(hideXAxis){
+      axis = axis.tickValues([]);
+    }
+
     const axisY = d3
       .axisLeft(scaleY)
       .tickSize(-calc.chartWidth - 20)
